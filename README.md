@@ -10,6 +10,7 @@ sudo apt-get dist-upgrade
 #Camera
 sudo raspi-config 
 raspistill -v -o test.jpg
+raspivid -v -t 10000 -o testvid.h264
 
 #Tensorflow Lite script download
 git clone https://github.com/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi.git
