@@ -1,13 +1,21 @@
-# Anaconda, CUDA
-## Run Anaconda 
+# Anaconda, CUDA, C:\tensorflow1
+## Run Anaconda
 conda create -n tensorflow1 pip python=3.5
 activate tensorflow1
 python -m pip install --upgrade pip
 pip install --ignore-installed --upgrade tensorflow-gpu
-set PYTHONPATH=C:\tensorflow1\models;C:\tensorflow1\models\research;C:\tensorflow1\models\research\slim
+
 conda install -c anaconda protobuf
 pip install pillow
+pip install lxml
+pip install Cython
+pip install contextlib2
+pip install jupyter
+pip install matplotlib
 pip install pandas
+pip install opencv-python
+
+set PYTHONPATH=C:\tensorflow1
 
 ##LabelIMG->xml->20%test 80%train
 cd C:\tensorflow1
