@@ -11,10 +11,10 @@ https://developer.nvidia.com/cuda-11.2.2-download-archive?target_os=Windows&targ
 https://developer.nvidia.com/compute/machine-learning/cudnn/secure/8.1.0.77/11.2_20210127/cudnn-11.2-windows-x64-v8.1.0.77.zip
 ### envrironment variables(system)
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\bin <br>
-C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\libnvvp
-C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\include
-C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\extras\CUPTI\lib64
-C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\cuda\bin
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\libnvvp <br>
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\include <br>
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\extras\CUPTI\lib64 <br>
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\cuda\bin <br>
 ## Make TensorFlow directory (C:\TensorFlow)
 https://github.com/tensorflow/models
 ## Install Protobuf(C:\Program Files\Google Protobuf)
