@@ -10,7 +10,7 @@ python -c "import tensorflow as tf;print(tf.reduce_sum(tf.random.normal([1000, 1
 https://developer.nvidia.com/cuda-11.2.2-download-archive?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exenetwork
 https://developer.nvidia.com/compute/machine-learning/cudnn/secure/8.1.0.77/11.2_20210127/cudnn-11.2-windows-x64-v8.1.0.77.zip
 ### envrironment variables(system)
-C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\bin \n
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\bin <br>
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\libnvvp
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\include
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\extras\CUPTI\lib64
