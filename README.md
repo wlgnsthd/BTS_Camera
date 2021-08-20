@@ -41,6 +41,12 @@ source tflite1-env/bin/activate
 
 bash get_pi_requirements.sh
 
+#Download Sample file(normal/edge TPU model)
+wget https://storage.googleapis.com/download.tensorflow.org/models/tflite/coco_ssd_mobilenet_v1_1.0_quant_2018_06_29.zip
+unzip coco_ssd_mobilenet_v1_1.0_quant_2018_06_29.zip -d Sample_TFLite_model
+wget https://dl.google.com/coral/canned_models/mobilenet_ssd_v2_coco_quant_postprocess_edgetpu.tflite
+mv mobilenet_ssd_v2_coco_quant_postprocess_edgetpu.tflite Sample_TFLite_model/edgetpu.tflite
+
 sudo pip3 install pandas
 #Ultrasonic sensor
 sudo pip3 install wiringpi2
@@ -52,7 +58,7 @@ sudo pigpiod
 
 ### Run2(after putting tflite files into a folder) 
 ~~~
-##Tensorflow Lite webcam code with TPU
+##Tensorflow Lite webcam code with TPU (revise resolution in .py file)
 python3 TFLite_detection_webcam.py --modeldir=Sample_TFLite_model --edgetpu
 
 #Tensorflow Lite webcam code without TPU
