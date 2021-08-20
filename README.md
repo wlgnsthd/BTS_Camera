@@ -20,7 +20,6 @@ git clone https://github.com/EdjeElectronics/TensorFlow-Lite-Object-Detection-on
 ~~~
 #Install OpenCV, TensorflowLite_files
 sudo pip3 install opencv-python 
-bash get_pi_requirements.sh
 
 ##Download and Install TPU files
 echo "deb https://packages.cloud.google.com/apt coral-edgetpu-stable main" | sudo tee /etc/apt/sources.list.d/coral-edgetpu.list
@@ -38,6 +37,8 @@ cd tflite1
 sudo pip3 install virtualenv
 python3 -m venv tflite1-env
 source tflite1-env/bin/activate
+
+bash get_pi_requirements.sh
 
 sudo pip3 install pandas
 #Ultrasonic sensor
