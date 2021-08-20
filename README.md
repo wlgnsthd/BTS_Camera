@@ -31,8 +31,9 @@ sudo apt-get install libedgetpu1-max
 
 ### Virtual envrionment Run1
 ~~~
-#Tensorflow Lite Virtual environment setting
 mv TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi tflite1
+
+#Tensorflow Lite Virtual environment setting
 cd tflite1
 sudo pip3 install virtualenv
 python3 -m venv tflite1-env
