@@ -48,6 +48,7 @@ unzip coco_ssd_mobilenet_v1_1.0_quant_2018_06_29.zip -d Sample_TFLite_model
 wget https://dl.google.com/coral/canned_models/mobilenet_ssd_v2_coco_quant_postprocess_edgetpu.tflite
 mv mobilenet_ssd_v2_coco_quant_postprocess_edgetpu.tflite Sample_TFLite_model/edgetpu.tflite
 
+#unknown python3 -m pip install 
 sudo pip3 install pandas
 #Ultrasonic sensor
 sudo pip3 install wiringpi2
