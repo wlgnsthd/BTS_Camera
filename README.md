@@ -43,20 +43,14 @@ source tflite1-env/bin/activate
 
 bash get_pi_requirements.sh
 
-#Download Sample file(normal/edge TPU model)
+#Download Sample file(normal/edge TPU model)(once)
 wget https://storage.googleapis.com/download.tensorflow.org/models/tflite/coco_ssd_mobilenet_v1_1.0_quant_2018_06_29.zip
 unzip coco_ssd_mobilenet_v1_1.0_quant_2018_06_29.zip -d Sample_TFLite_model
 wget https://dl.google.com/coral/canned_models/mobilenet_ssd_v2_coco_quant_postprocess_edgetpu.tflite
 mv mobilenet_ssd_v2_coco_quant_postprocess_edgetpu.tflite Sample_TFLite_model/edgetpu.tflite
 
-#Servo_maybe
-python3 -m pip install pandas
-#Ultrasonic sensor
-python3 -m pip install RPi.GPIO
-#Servo
-python3 -m pip install gpiozero
-python3 -m pip install pigpio
-sudo pigpiod
+#For competition
+python3 -m pip install serial
 ~~~
 
 ### Run2(after putting tflite files into a folder) 
