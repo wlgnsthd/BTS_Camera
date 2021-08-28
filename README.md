@@ -50,7 +50,9 @@ wget https://dl.google.com/coral/canned_models/mobilenet_ssd_v2_coco_quant_postp
 mv mobilenet_ssd_v2_coco_quant_postprocess_edgetpu.tflite Sample_TFLite_model/edgetpu.tflite
 
 #For competition
+##communicate with arduino
 python3 -m pip install serial
+python3 -m pip install pyserial
 ~~~
 
 ### Run2(after putting tflite files into a folder) 
