@@ -53,6 +53,8 @@ mv mobilenet_ssd_v2_coco_quant_postprocess_edgetpu.tflite Sample_TFLite_model/ed
 ##communicate with arduino
 python3 -m pip install serial
 python3 -m pip install pyserial
+
+
 ~~~
 
 ### Run2(after putting tflite files into a folder) 
