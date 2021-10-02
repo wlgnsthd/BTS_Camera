@@ -1,4 +1,5 @@
-# connect camera and configure
+## connect camera and configure
+# Install TF lite interpreter
 ~~~
 # ! install only TF lite interpreter (version Linux ARM 32 python 3.7)  
 pip3 install https://dl.google.com/coral/python/tflite_runtime-2.1.0.post1-cp37-cp37m-linux_armv7l.whl
