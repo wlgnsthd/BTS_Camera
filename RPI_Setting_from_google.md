@@ -38,3 +38,8 @@ python3 -c 'print(__import__("tflite_runtime").__version__)'
 python3 -c 'print(__import__("tflite_runtime").__path__)'
 rm -r 'PATH'
 ~~~
+
+# Change detect.py file
+![IMG_7770](https://user-images.githubusercontent.com/88171531/135710057-3b845369-41d1-45b8-86c4-ed63efe3dc96.jpeg)
+![IMG_8059](https://user-images.githubusercontent.com/88171531/135710062-08e5103f-1b04-41c7-aa3d-c1688abba235.jpg)
+![IMG_8060](https://user-images.githubusercontent.com/88171531/135710063-f2c1ef01-7675-4e36-ad9a-0664c153b130.jpeg)
