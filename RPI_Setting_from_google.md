@@ -14,8 +14,8 @@ sudo apt-get update
 sudo apt-get install python3-tflite-runtime
 sudo apt-get install libedgetpu1-max
 ~~~
-## Put this line into upper code : from tflite_runtime.interpreter import load_delegate
-## Change interpreter = Interpreter(args.model) into interpreter = Interpreter(args.model, experimental_delegates=[load_delegate('libedgetpu.so.1.0')])
+#### Put this line into upper code : from tflite_runtime.interpreter import load_delegate
+#### Change interpreter = Interpreter(args.model) into interpreter = Interpreter(args.model, experimental_delegates=[load_delegate('libedgetpu.so.1.0')])
 
 # download the example files
 ~~~
