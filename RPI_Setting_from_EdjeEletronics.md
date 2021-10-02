@@ -65,3 +65,9 @@ python3 TFLite_detection_webcam.py --modeldir=Sample_TFLite_model --edgetpu
 #Tensorflow Lite webcam code without TPU
 python3 TFLite_detection_webcam.py --modeldir=Sample_TFLite_model
 ~~~
+
+# Change detect.py file
+![IMG_7770](https://user-images.githubusercontent.com/88171531/135710082-72bd71c0-109a-42bb-9002-465c97e60f96.jpeg)
+![IMG_8059](https://user-images.githubusercontent.com/88171531/135710089-28ee9cfb-fbf6-46c3-b47d-fa1ff43b1b1b.jpg)
+![IMG_8060](https://user-images.githubusercontent.com/88171531/135710093-962216ea-292f-43b6-86d7-ce4bfd064174.jpeg)
+
