@@ -1,0 +1,16 @@
+cd jetson-inference/
+
+docker/run.sh
+
+#labeling
+cd python/training/detection/ssd
+camera-capture csi://1
+
+#image label file 
+cd data
+mkdir <folder name>
+cd <folder name>
+touch <file name>
+
+#chmod
+chmod g+w <file>
