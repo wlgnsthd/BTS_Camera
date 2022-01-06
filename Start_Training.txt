@@ -1,9 +1,14 @@
 cd jetson-inference/
-
 docker/run.sh
 
-#labeling
+
 cd python/training/detection/ssd
+
+#file download
+wget https://nvidia.box.com/shared/static/djf5w54rjvpqocsiztzaandq1m3avr7c.pth -O models/mobilenet-v1-ssd-mp-0_675.pth
+pip3 install -v -r requirements.txt
+
+#labeling
 camera-capture csi://1
 
 #image label file 
@@ -14,3 +19,7 @@ touch <file name>
 
 #chmod
 chmod g+w <file>
+chmod 777 <folder>
+
+#deeplearning
+python3 train_ssd.py --dataset-type=voc --data=data/QR --model-dir=models/QR --batch-size=2 --workers=1 --epochs=1
