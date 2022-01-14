@@ -1,25 +1,41 @@
+## (initial) mounting swap
+sudo systemctl disable nvzramconfig
+sudo fallocate -l 4G /mnt/4GB.swap
+sudo mkswap /mnt/4GB.swap
+sudo swapon /mnt/4GB.swap
+
+/mnt/4GB.swap  none  swap  sw 0  0
+
+## reboot
+swapon -s
+tegrastats
+
+#start 
 cd jetson-inference/
 docker/run.sh
 
-
 cd python/training/detection/ssd
 
-#file download
+## (initial) file download
 wget https://nvidia.box.com/shared/static/djf5w54rjvpqocsiztzaandq1m3avr7c.pth -O models/mobilenet-v1-ssd-mp-0_675.pth
 pip3 install -v -r requirements.txt
 
-#labeling
+## labeling
 camera-capture csi://1
 
-#image label file 
+## image label file 
 cd data
 mkdir <folder name>
 cd <folder name>
 touch <file name>
 
-#chmod
+## (authorizing) chmod
 chmod g+w <file>
 chmod 777 <folder>
 
-#deeplearning
+# deeplearning (Modify QR,batch-memory, worker-thred, epoch-30~1000)
 python3 train_ssd.py --dataset-type=voc --data=data/QR --model-dir=models/QR --batch-size=2 --workers=1 --epochs=1
+
+# pth to onnx
+python3 onnx_export.py --model-dir=models/QR
+
