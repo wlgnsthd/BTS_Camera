@@ -1,0 +1,6 @@
+cd jetson-inference/python/training/detection/ssd
+
+#runtime (Modify QR)
+detectnet --model=models/QR/ssd-mobilenet.onnx --labels=models/QR/labels.txt \
+          --input-blob=input_0 --output-cvg=scores --output-bbox=boxes \
+            csi://1
