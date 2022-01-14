@@ -3,7 +3,7 @@
 https://github.com/dusty-nv/jetson-inference.git
 
 # annotation example
-" <annotation>
+~~ <annotation>
     <filename>20220106-162319.jpg</filename>
     <folder>QR</folder>
     <source>
@@ -42,7 +42,7 @@ https://github.com/dusty-nv/jetson-inference.git
         </bndbox>
     </object>
 </annotation>
-"
+~~
 # file tree
 jetson-inference/python/training/detection/ssd / models/QR,mobilenet~.pth
                                                /data/QR/(Annotaions,ImageSets,JPEGImages),labels.txt
