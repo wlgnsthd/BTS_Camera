@@ -1,0 +1,2 @@
+1) check CUDA version
+dpkg -l | grep cuda 
