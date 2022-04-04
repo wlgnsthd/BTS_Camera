@@ -3,7 +3,7 @@
 https://github.com/dusty-nv/jetson-inference.git
 
 # annotation example
-~~<annotation>
+<annotation>
     <filename>20220106-162319.jpg</filename>
     <folder>QR</folder>
     <source>
