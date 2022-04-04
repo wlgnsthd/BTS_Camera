@@ -18,10 +18,11 @@ make
 sudo make install
 sudo ldconfig
 ```
-
-1) check CUDA version
+```
+# 1) check CUDA version
 dpkg -l | grep cuda 
 
-2) check Camera directory
+# 2) check Camera directory
 ls -ltrh /dev/video*
 # csi://1
+```
