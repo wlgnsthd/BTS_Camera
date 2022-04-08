@@ -1,12 +1,14 @@
 import jetson.inference
 import jetson.utils
 
-net = jetson.inference.detectNet('ssd-mobilenet-v2', argv=['--model=ssd-mobilenet.onnx','--labels=labels.txt','--input-blob=input_0','--output-cvg=scores','--output-bbox=boxes'],threshold = 0.5)
+net = jetson.inference.detectNet('ssd-mobilenet-v2', 
+                                 argv=['--model=./QR/ssd-mobilenet.onnx','--labels=./QR/labels.txt','--input-blob=input_0','--output-cvg=scores','--output-bbox=boxes'],
+                                 threshold = 0.5)
 camera = jetson.utils.videoSource("/dev/video1")      # '/dev/video0' or 'csi://0'
-display = jetson.utils.videoOutput("display://0")     # 'my_video.mp4' for file
+#display = jetson.utils.videoOutput("display://0")     # 'my_video.mp4' for file
 
 
-while display.IsStreaming():
+while True:
     img = camera.Capture()
     detections = net.Detect(img) # ,overlay='none' : no detection image
     node_to_ROS = []
