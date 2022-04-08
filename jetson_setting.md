@@ -25,4 +25,18 @@ dpkg -l | grep cuda
 # 2) check Camera directory
 ls -ltrh /dev/video*
 # csi://1
+
+# 3) swap memory
+sudo systemctl disable nvzramconfig
+sudo fallocate -l 4G /mnt/4GB.swap
+sudo mkswap /mnt/4GB.swap
+sudo swapon /mnt/4GB.swap
+/mnt/4GB.swap  none  swap  sw 0  0
+swapon -s
+
+# 4) check RAM GPU CPU
+tegrastats
+# top
+# free
+
 ```
