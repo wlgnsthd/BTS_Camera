@@ -39,4 +39,10 @@ tegrastats
 # top
 # free
 
+# 5) labelling
+camera-capture csi://1
+# /dev/video1
+
+# 6) pth to onnx
+python3 onnx_export.py --model-dir=models/*
 ```
