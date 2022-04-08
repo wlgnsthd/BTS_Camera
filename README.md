@@ -2,6 +2,8 @@
 
 https://github.com/dusty-nv/jetson-inference.git
 
+## /home/nvidia/jetson-inference/python/training/detection/ssd/mine
+
 # annotation example
 ```
 <annotation>
