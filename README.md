@@ -280,7 +280,10 @@ jetson-inference/python/training/detection/ssd / models/QR,mobilenet~.pth
 ![20220408_104459](https://user-images.githubusercontent.com/88171531/162373747-3b52eb9e-dd9e-427e-bb38-61a5ee22a400.jpg)
 
 
-https://user-images.githubusercontent.com/88171531/162373762-34355905-ec1e-463f-a4d9-3a51b1c50820.mp4
+
+https://user-images.githubusercontent.com/88171531/169685250-d3ea8430-a4da-4f9f-91c8-68bb6254915d.mp4
+
+
 
 ```
 root@ubuntu:/jetson-inference/python/training/detection/ssd# python3 train_ssd.py --dataset-type=voc --data=data/Laddertruck --model-dir=models/Laddertruck --batch-size=16 --workers=1 --epochs=500
