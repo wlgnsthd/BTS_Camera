@@ -1,4 +1,5 @@
 # UAM_UOU_ObjectDetection
+https://user-images.githubusercontent.com/88171531/169685250-d3ea8430-a4da-4f9f-91c8-68bb6254915d.mp4
 
 https://github.com/dusty-nv/jetson-inference.git
 
@@ -281,7 +282,6 @@ jetson-inference/python/training/detection/ssd / models/QR,mobilenet~.pth
 
 
 
-https://user-images.githubusercontent.com/88171531/169685250-d3ea8430-a4da-4f9f-91c8-68bb6254915d.mp4
 
 
 
