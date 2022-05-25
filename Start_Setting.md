@@ -1,6 +1,6 @@
 ```
 sudo apt-get update
-sudo apt-get install git cmake libpython3-dev python3-numpy
+sudo apt-get install git cmake libpython3-dev python3-numpy python3-pip
 git clone --recursive https://github.com/dusty-nv/jetson-inference
 
 cd jetson-inference
