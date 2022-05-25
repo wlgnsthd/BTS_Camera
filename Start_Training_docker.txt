@@ -12,7 +12,7 @@ tegrastats
 
 #start 
 cd jetson-inference/
-docker/run.sh
+# docker/run.sh
 
 cd python/training/detection/ssd
 
