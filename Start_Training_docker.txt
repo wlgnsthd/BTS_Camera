@@ -35,6 +35,7 @@ chmod 777 <folder>
 
 # deeplearning (Modify QR,batch-memory, worker-thred, epoch-30~1000)
 python3 train_ssd.py --dataset-type=voc --data=data/QR --model-dir=models/QR --batch-size=2 --workers=1 --epochs=1
+#--model-dir=/media/nvidia/nvidia_deep/models/Laddertruck
 
 # pth to onnx
 python3 onnx_export.py --model-dir=models/QR
