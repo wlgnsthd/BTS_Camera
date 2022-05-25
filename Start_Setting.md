@@ -7,12 +7,18 @@ cd jetson-inference
 mkdir build
 cd build
 cmake ../
-## download model
+
+## download other model
 # cd jetson-inference/tools
 # ./download-models.sh
+
 ## download pytorch
-# cd jetson-inference/build
-# ./install-pytorch.sh
+cd jetson-inference/build
+./install-pytorch.sh
+
+# If PIL problem occurs, uninstall it and reinstall
+sudo pip3 uninstall pillow
+sudo pip3 install pillow
 
 make
 sudo make install
