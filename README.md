@@ -50,9 +50,8 @@ https://github.com/dusty-nv/jetson-inference.git
 # file tree
 jetson-inference/python/training/detection/ssd / models/Laddertruck,mobilenet~.pth
                                                /data/Laddertruck/(Annotaions,ImageSets,JPEGImages),labels.txt
-![20220408_104459](https://user-images.githubusercontent.com/88171531/162373747-3b52eb9e-dd9e-427e-bb38-61a5ee22a400.jpg)
 
-
+![20220529_214138](https://user-images.githubusercontent.com/88171531/170869440-80374f9f-1b47-4eda-bd29-0b02a2d5fd42.jpg)
 
 
 
