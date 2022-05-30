@@ -1,5 +1,5 @@
 # UAM_UOU_ObjectDetection
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fwlgnsthd&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+
 https://user-images.githubusercontent.com/88171531/169685250-d3ea8430-a4da-4f9f-91c8-68bb6254915d.mp4
 
 https://github.com/dusty-nv/jetson-inference.git
@@ -84,3 +84,4 @@ root@ubuntu:/jetson-inference/python/training/detection/ssd# python3 train_ssd.p
 2022-05-18 04:30:45 - Saved model models/Laddertruck/mb1-ssd-Epoch-1-Loss-5.9035186767578125.pth
 2022-05-18 04:30:50 - Epoch: 2, Validation Loss: 5.5850, Validation Regression Loss 2.4618, Validation Classification Loss: 3.1232
 ```
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fwlgnsthd&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
